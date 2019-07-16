@@ -6,14 +6,8 @@ def line(katz_deli)
   end
 end 
 
-def take_a_number(deli)
-  count = 0 
-  phrase = []
-  while count < deli.length do
-  phrase << "The line is currently:#{count +1}. #{deli.}"
-  count += 1 
-  end 
-  puts phrase
+def take_a_number(deli,name)
+  deli.each_with_index.map do |
 end 
 
 take_a_number(other_deli)
