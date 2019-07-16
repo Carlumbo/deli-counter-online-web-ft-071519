@@ -9,6 +9,9 @@ end
 def take_a_number(deli,name)
   count = 0 
   phrase = []
-  array.length {|deli| phrase << "#{count +1}. #{deli}"}
-  count += 1
-  
+  while count < array.length do
+  phrase << "#{count +1}. #{deli}"
+  count += 1 
+  end 
+  puts phrase
+end 
