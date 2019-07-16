@@ -9,7 +9,7 @@ end
 def take_a_number(deli)
   count = 0 
   phrase = []
-  while count < array.length do
+  while count < deli.length do
   phrase << "The line is currently:#{count +1}. #{deli}"
   count += 1 
   end 
