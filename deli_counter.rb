@@ -9,4 +9,6 @@ end
 def take_a_number(array)
   array.each_with_index.map do 
     |name, number|
-    puts "The line is currently: #{number +1}. "
+    puts "The line is currently: #{number +1}. #{name}"
+  end 
+end 
