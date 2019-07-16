@@ -9,6 +9,6 @@ end
 def take_a_number(other_deli)
   other_deli.each_with_index.map do 
     |name, number|
-    puts "The line is currently: #{number +1}. #{name}"
+    "The line is currently: #{number +1}. #{name}"
   end 
 end 
