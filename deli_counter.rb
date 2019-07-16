@@ -6,8 +6,8 @@ def line(katz_deli)
   end
 end 
 
-def take_a_number(array)
-  array.each_with_index.map do 
+def take_a_number(katz_deli)
+  katz_deli.each_with_index.map do 
     |name, number|
     puts "The line is currently: #{number +1}. #{name}"
   end 
