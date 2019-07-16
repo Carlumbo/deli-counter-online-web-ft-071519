@@ -10,7 +10,7 @@ def take_a_number(deli)
   count = 0 
   phrase = []
   while count < deli.length do
-  phrase << "The line is currently:#{count +1}. #{deli.each}"
+  phrase << "The line is currently:#{count +1}. #{deli.}"
   count += 1 
   end 
   puts phrase
