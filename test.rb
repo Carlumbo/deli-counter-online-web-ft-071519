@@ -8,7 +8,7 @@ end
 
 def take_a_number(deli)
   deli.each_with_index.map do |name, number|
-  puts "The line is currently: #{number +1} #{name}"
+  puts "The line is currently: #{number +1} #{name}."
   end 
 end 
 
