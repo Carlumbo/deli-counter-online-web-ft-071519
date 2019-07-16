@@ -7,7 +7,7 @@ def line(katz_deli)
 end 
 
 def take_a_number(other_deli)
-  katz_deli.each_with_index.map do 
+  other_deli.each_with_index.map do 
     |name, number|
     puts "The line is currently: #{number +1}. #{name}"
   end 
